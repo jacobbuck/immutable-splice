@@ -1,6 +1,6 @@
 {
   "name": "immutable-splice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Immutable splice function.",
   "main": "index.js",
   "scripts": {
