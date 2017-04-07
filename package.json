@@ -1,20 +1,29 @@
 {
   "name": "immutable-splice",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Immutable splice function.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacobbuck/immutable-splice.git"
   },
-  "keywords": ["array", "immutable", "splice", "string"],
+  "keywords": [
+    "array",
+    "immutable",
+    "splice",
+    "string"
+  ],
   "author": "Jacob Buck <buck.jacob@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacobbuck/immutable-splice/issues"
   },
-  "homepage": "https://github.com/jacobbuck/immutable-splice"
+  "homepage": "https://github.com/jacobbuck/immutable-splice",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
 }
