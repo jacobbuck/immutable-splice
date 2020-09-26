@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Added ES Module build.
+
+### Changed
+
+- **BREAKING** `deleteCount` will only fallback to default if omitted.
+- Refactored internals in modern JavaScript.
+
 ## v0.0.3 - 2017-04-07
 
 ### Fixed
