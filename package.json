@@ -1,6 +1,6 @@
 {
   "name": "immutable-splice",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Immutable splice function for arrays and strings.",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
