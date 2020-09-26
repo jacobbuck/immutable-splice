@@ -2,7 +2,8 @@
   "name": "immutable-splice",
   "version": "0.0.3",
   "description": "Immutable splice function.",
-  "main": "index.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
   "scripts": {
     "build": "rollup -c",
     "format": "prettier --write .",
