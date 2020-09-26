@@ -6,6 +6,7 @@
   "module": "lib/index.esm.js",
   "scripts": {
     "build": "rollup -c",
+    "coverage": "jest --coverage",
     "format": "prettier --write .",
     "prepare": "npm run build",
     "test": "jest"
