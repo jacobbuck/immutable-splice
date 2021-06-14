@@ -1,10 +1,11 @@
 import babel from '@rollup/plugin-babel';
+import pkg from './package.json';
 
 export default {
   input: 'src/index.js',
   output: [
-    { file: 'lib/index.cjs.js', format: 'cjs', exports: 'default' },
-    { file: 'lib/index.esm.js', format: 'esm' },
+    { file: pkg.main, format: 'cjs', exports: 'default' },
+    { file: pkg.module, format: 'esm' },
   ],
   plugins: [babel({ babelHelpers: 'bundled' })],
 };
